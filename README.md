@@ -24,9 +24,11 @@ you should also explicitly depend on jquery
 
 ### externs
 
-because this lib requires and inlines jquery.js please include 
+because this lib requires and inlines jquery.js please include:
+ 
+[:externs ["externs/jquery.1.7.1.js" "externs/jquery-sparkline-1.6.js]] 
 
-please include [:externs "js/externs/jquery.1.7.1.js"] if using advanced mode compilation
+if using advanced mode compilation
 
 hopefully this will not be required in the future
 

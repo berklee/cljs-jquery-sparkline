@@ -20,7 +20,7 @@ wrap-js wrapper for jquery sparkline plugin for clojurescript
 
 you should also explicitly depend on jquery 
 
-* clojars [cljs-jquery-1-7-1 "0.0.1"] (or appropriate version)
+* clojars \[cljs-jquery-1-7-1 "0.0.1"\] (or appropriate version)
 
 ### externs
 

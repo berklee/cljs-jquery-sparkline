@@ -18,6 +18,10 @@ wrap-js wrapper for jquery sparkline plugin for clojurescript
 
 * clojars [cljs-jquery-sparkline-1-6 "0.0.1"]
 
+you should also explicitly depend on jquery 
+
+* clojars [cljs-jquery-1-7-1 "0.0.1"] (or appropriate version)
+
 ### externs
 
 because this lib requires and inlines jquery.js please include 

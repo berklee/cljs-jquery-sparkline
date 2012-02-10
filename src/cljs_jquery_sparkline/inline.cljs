@@ -5,6 +5,6 @@
   (:require-macros [wrap-js.macros.file-contents :as mfc])
   )
 
-(def plugin-src (mfc/from-local-file "js/jquery.sparkline.js"))
+(def plugin-src (mfc/from-local-file "js/jquery.sparkline.min.js"))
 (wrap-js/add-inline! plugin-src)
 
